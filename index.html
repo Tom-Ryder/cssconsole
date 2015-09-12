@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Console CSS</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300|Source+Sans+Pro:400,300|Roboto:400,100,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/console.min.css">
+	<link rel="stylesheet" href="css/console-elegant.min.css">
+
+	<style>
+		html{
+			font-size: 16px;
+		}
+		.container {
+			padding-top: 10px;
+			max-width: 960px;
+			margin: 0 auto;
+		}
+		.heading {
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			margin-bottom: 70px;
+		}
+		.heading h1 {
+			margin: 0;
+			padding: 0;
+			color: #444444;
+			font-size: 2.7em;
+		}
+		.heading small {
+			color: #606060;
+			font-size: 1em;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		.usage {
+			font-family: 'Source Sans Pro', sans-serif;
+			margin-bottom: 30px;
+			margin-top: 50px;
+		}
+		.usage pre {
+			padding: 0;
+			margin: 0;
+			background-color: #FBFBFB;
+			padding: 10px;
+			font-size: 1em;
+			font-family: 'Source Sans Pro', sans-serif;
+			border-radius: 3px;
+			border: 1px solid #ECECEC;
+		}
+		.copy {
+			font-family: 'Roboto', sans-serif;
+			color: #444;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="heading">
+			<h1>CSS Console</h1>
+			<small>A console window, styled with css for showing commands of a way more visual in any website.</small>
+		</header>
+		
+
+
+		<!-- Console starts here -->
+		<div class="console-wrapper">
+			<div class="console-container">
+				<div class="console-header">
+					<span class="console-title">Robot Server --- console</span>
+				</div>	
+				<div class="console-content">
+					<p class="console-line">sudo apt-get update</p>
+					<p class="console-line">sudo apt-get upgrade</p>
+					<p class="console-line">service nginx restart</p>
+					<p class="console-line">python first.py</p>
+
+					<p class="console-output">
+						<strong>http://0.0.0.0:8080/</strong><br>
+						127.0.0.1:59542 - - [13/Jun/2011 11:44:43] "HTTP/1.1 GET /" - 200 OK
+						127.0.0.1:59542 - - [13/Jun/2011 11:44:43] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+					</p>
+					<p class="console-line"></p>
+					<p class="console-line">ssh root@127.0.0.1</p>
+					
+				</div>
+			</div>
+		</div>
+		<!-- Console ends here -->
+		
+		<article class="usage">
+			<h2>Usage</h2>
+			<p>
+				Just need to add css files in your folder of css, and call them with link tag:
+			</p>
+
+<pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/console.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/console-elegant.min.css&quot;&gt;</pre>
+
+			<p>
+				After links tags, copy paste the following code in any part of your code:
+			</p>
+			
+<pre>&lt;!-- Console starts here --&gt;
+&lt;div class=&quot;console-wrapper&quot;&gt; 
+	&lt;div class=&quot;console-container&quot;&gt; 
+		&lt;div class=&quot;console-header&quot;&gt; 
+			&lt;span class=&quot;console-title&quot;&gt;Mantra Server --- console&lt;/span&gt;
+		&lt;/div&gt;	
+		&lt;div class=&quot;console-content&quot;&gt; 
+			&lt;p class=&quot;console-line&quot;&gt;sudo apt-get update&lt;/p&gt; 
+			&lt;p class=&quot;console-line&quot;&gt;sudo apt-get upgrade&lt;/p&gt; 
+			&lt;p class=&quot;console-line&quot;&gt;service nginx restart&lt;/p&gt; 
+			&lt;p class=&quot;console-line&quot;&gt;python first.py&lt;/p&gt; 
+			&lt;p class=&quot;console-output&quot;&gt; 
+				&lt;strong&gt;http://0.0.0.0:8080/&lt;/strong&gt;&lt;br&gt; 
+				127.0.0.1:59542 - - [13/Jun/2011 11:44:43] &quot;HTTP/1.1 GET /&quot; - 200 OK&gt;&lt;br&gt;  
+				127.0.0.1:59542 - - [13/Jun/2011 11:44:43] &quot;HTTP/1.1 GET /favicon.ico&quot; - 404 Not Found 
+			&lt;/p&gt;
+		 &lt;/div&gt; 
+	&lt;/div&gt; 
+&lt;/div&gt; 
+&lt;!-- Console ends here --&gt;</pre>
+
+		</article>
+
+		<footer class="copy">
+			<p>www.aguilarcarlos.com</p>
+		</footer>
+
+	</div>
+	
+</body>
+</html>
