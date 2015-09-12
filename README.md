@@ -3,7 +3,7 @@ CSS Console
 
 A console window, styled with css for showing commands of a way more visual in any website. See demo here: [Demo](http://demos.aguilarcarlos.com)
 
-->![Console CSS](http://demos.aguilarcarlos.com/img/console.PNG)<-
+![Console CSS](http://demos.aguilarcarlos.com/img/console.PNG)
 
 Usage
 -------------
