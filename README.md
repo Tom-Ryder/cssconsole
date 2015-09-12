@@ -1,9 +1,11 @@
 CSS Console
 ===================
 
-A console window, styled with css for showing commands of a way more visual in any website.
+A console window, styled with css for showing commands of a way more visual in any website. See demo here: [Demo](http://demos.aguilarcarlos.com)
 
 ----------
+
+![Console CSS](http://demos.aguilarcarlos.com/img/console.PNG)
 
 Usage
 -------------
@@ -35,4 +37,4 @@ After links tags, copy paste the following code in any part of your code:
 </div> 
 <!-- Console ends here -->
 ```
-[www.aguilarcarlos.com](www.aguilarcarlos.com)
+Visit my website: [www.aguilarcarlos.com](www.aguilarcarlos.com)
